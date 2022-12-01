@@ -9,8 +9,8 @@ function SimpleLocalize(props) {
 
   console.log(props.location.host);
 
-  if (props.location.host==="ubiquitous-queijadas-a266e4.netlify.app") {
-    navigate('https://ubiquitous-queijadas-a266e4.netlify.app/es'+props.location.pathname);
+  if (props.location.host==="ubiquitous-queijadas-a266e4.netlify.app"+props.location.pathname==="/") {
+    navigate('https://ubiquitous-queijadas-a266e4.netlify.app/es/');
   }
 
   return (
