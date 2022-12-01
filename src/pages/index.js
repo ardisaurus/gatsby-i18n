@@ -31,9 +31,9 @@ function IndexPage(props) {
       </LinkTranslated>
       <ul>
         <li><a href="/">English (Default)</a></li>
-        <li><a href="/es/">Spanish</a></li>
+        <li><a href="https://ubiquitous-queijadas-a266e4.netlify.app/es/">Spanish</a></li>
       </ul>
-
+      <p>Version : 1.0.0</p>
     </SimpleLocalize>
   );
 }
