@@ -7,7 +7,7 @@ function SimpleLocalize(props) {
   const messages = props.pageContext.messages;
   const language = props.pageContext.language;
 
-  console.log(window.location);
+  console.log(props.location.pathname);
 
   // if (window.location.pathname === '/about/') {
   //   navigate('/products');
