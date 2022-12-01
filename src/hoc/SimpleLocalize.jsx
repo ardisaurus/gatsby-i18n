@@ -7,11 +7,11 @@ function SimpleLocalize(props) {
   const messages = props.pageContext.messages;
   const language = props.pageContext.language;
 
-  console.log(props.location.pathname);
+  console.log(props.location.host);
 
-  // if (window.location.pathname === '/about/') {
-  //   navigate('/products');
-  // }
+  if (props.location.host==="https://ubiquitous-queijadas-a266e4.netlify.app") {
+    navigate('https://ubiquitous-queijadas-a266e4.netlify.app/es'+props.location.pathname);
+  }
 
   return (
     <IntlProvider
