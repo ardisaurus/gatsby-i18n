@@ -1,0 +1,17 @@
+{
+    "en" : {
+      "welcome-on-our-website" : "Welcome on our multi-language website",
+      "hello-world" : "Hello World!",
+      "about-us" : "About us",
+      "learn-more-about-us" : "Learn more about us",
+      "homepage" : "Homepage"
+    },
+    "es" : {
+      "welcome-on-our-website" : "Bienvenido a nuestro sitio web multilingüe",
+      "hello-world" : "Hola, mundo.",
+      "about-us" : "Sobre nosotros",
+      "learn-more-about-us" : "Más información sobre nosotros",
+      "homepage" : "Página web"
+    }
+  }
+  
